@@ -17,7 +17,7 @@ OpenCVを用いて人の顔を検出し､人が複数人いた場合やPCに顔
 1. 本パッケージをインストールします｡
 ```sh
 $cd ~/catkin_ws/src  
-$git clone https://github.com/Dansato1203/detect_human_chime.git  
+$git clone https://github.com/KANBE8810/mitsu_checker.git  
 $cd ~/catkin_ws
 $catkin_make
 ```
