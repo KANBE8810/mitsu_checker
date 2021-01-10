@@ -3,7 +3,8 @@
 ロボットシステム学の課題2でROSを用いて作成した密チェッカーです｡<br>
 OpenCVを用いて人の顔を検出し､人が複数人いた場合やPCに顔が近い場合に｢密です｣という警告の音声を出したり､視覚による警告を行います｡
 ## デモ動画
-準備中
+[![](http://img.youtube.com/vi/FIbXHubF44Y/0.jpg)](http://www.youtube.com/watch?v=FIbXHubF44Y "")<br>
+画像をクリックするとYouTubeに飛びます.
 ## 動作確認
 以下の環境にて動作確認をしています｡
 * ROS Melodic
