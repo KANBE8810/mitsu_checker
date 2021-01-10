@@ -37,7 +37,7 @@ $sudo apt-get install ros-melodic-usb-cam
 ```sh
 $roslaunch mitsu_checker usb_cam.launch 
 ```
-2. 本パッケージの人の顔を検知するプログラムを起動します
+2. 本パッケージの人の顔を検知するプログラムを起動します｡
 ```sh
 $rosrun mitsu_checker mitsu_checker.py
 ```
