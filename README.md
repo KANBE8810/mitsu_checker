@@ -1,10 +1,10 @@
 # mitsu_checker/密チェッカー
-## 説明
 ロボットシステム学の課題2でROSを用いて作成した密チェッカーです｡<br>
-OpenCVを用いて人の顔を検出し､人が複数人いた場合やPCに顔が近い場合に｢密です｣という警告の音声を出したり､視覚による警告を行います｡
+OpenCVを用いて人の顔を検出し､人が複数人いた場合やPCに顔が近い場合に｢密です｣という警告の音声を出したり､視覚による警告を行います｡<br>
+密チェッカーを使って人やパソコンとの密を避けよう!!
 ## デモ動画
 [![](http://img.youtube.com/vi/FIbXHubF44Y/0.jpg)](http://www.youtube.com/watch?v=FIbXHubF44Y "")<br>
-画像をクリックするとYouTubeに飛びます.
+画像をクリックするとYouTubeに飛びます｡
 ## 動作確認
 以下の環境にて動作確認をしています｡
 * ROS Melodic
@@ -45,7 +45,7 @@ $rosrun mitsu_checker mitsu_checker.py
 ```sh
 $rosrun mitsu_checker mitsu.py
 ```
-尚､1,2,3,の動作はそれぞれ別の端末でコマンドを実行してください
+尚､1,2,3はそれぞれ別の端末でコマンドを実行してください｡
 
 # ライセンス
 ROS [BSD 3-Clause License](https://github.com/KANBE8810/mitsu_checker/blob/master/LICENSE)<br>
