@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_breakout</name>
+  <name>mitsu_checker</name>
   <version>0.0.0</version>
-  <description>The ros_breakout package</description>
+  <description>The mitsu_checker package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/ros_breakout</url> -->
+  <!-- <url type="website">http://wiki.ros.org/mitsu_checker</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
