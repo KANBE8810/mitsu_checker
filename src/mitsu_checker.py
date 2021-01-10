@@ -27,11 +27,8 @@ class mitsu_checker:
 
         faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
 
-#        gray = cv2.cvtColor(cv_image, cv2.COLOR_BGR2GRAY)
 
         face = faceCascade.detectMultiScale(cv_image,1.1,3,minSize=(50,50))
-#            pub1.publish(xx/2)
-#            pub2.publish(yy/2)
 
         if len(face) > 0:
             for rect in face:
@@ -49,12 +46,8 @@ class mitsu_checker:
             nimg2 =cv2.resize(img2,(100,100))
             x_offset=0
             y_offset=0
-#            large_img = cv_image
-#            small_img = nsrc
-#            large_img[y_offset:y_offset+small_img.shape[0], x_offset:x_offset+small_img.shape[1]] = small_img
             cv_image[y_offset:y_offset+nimg2.shape[0], x_offset:x_offset+nimg2.shape[1]] = nimg2
             cv2.putText(cv_image,'warning',(100,300), cv2.FONT_HERSHEY_SIMPLEX, 3,(0,0,255),2,)
-#        cv2.imshow('mitsu_checker',cv_image)
         cv2.imshow('mitsu_checker',cv_image)
         cv2.waitKey(3)
 
