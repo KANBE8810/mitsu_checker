@@ -9,9 +9,9 @@ OpenCVを用いて人の顔を検出し､人が複数人いた場合やPCに顔
 以下の環境にて動作確認をしています｡
 * ROS Melodic
   * OS : Ubuntu 18.04.5 LTS
-  * ROS Distribution : Melodoc Morenia 1.14.3
+  * ROS Distribution : Melodoc Morenia 1.14.9
 * usb-cam
-* OpenCV : version 3.4.3
+* OpenCV : version 3.2.0
 * Python 2.7.17
 また､カメラに関してはdynabookのノートパソコンの内蔵カメラを用いて動作確認いたしました
 ## 環境構築
